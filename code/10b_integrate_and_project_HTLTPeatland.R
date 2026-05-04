@@ -81,7 +81,7 @@ if (climate_id == "WorldClim_5min") {
   crs(bio1) <- "EPSG:4326"
 }
 
-dir_proj_htlt     <- here("data_processed","projections","HTLTPeatland")
+dir_proj_htlt     <- here("data_processed","projections")
 dir_figures   <- here("outputs", "10b_projections")
 
 dir.create(dir_proj_htlt, recursive = TRUE, showWarnings = FALSE)
