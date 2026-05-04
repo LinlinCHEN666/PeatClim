@@ -11,8 +11,13 @@ The workflow:
 4. trains and projects single and ensemble SDMs with `biomod2`,
 5. integrates HT and LT predictions into a unified **HTLTPeatland** probability,
 6. evaluates model performance and propagated uncertainty.
-# Cite
-Chen, L., Valdes, P., & Farnsworth, A. (2026). PeatClim: A climate-driven machine-learning model for predicting potential paleo-peatland distribution and its key climate controls (v1.0). Zenodo. [https://doi.org/10.5281/zenodo.20030628](https://doi.org/10.5281/zenodo.20030628)
+
+The repository includes selected derived products, including the peatland training dataset (`data_processed/occurrence/PEATMAP_Peat-DBase_HTLT_5min_annotated.csv`) and the modern HTLTPeatland projection raster (`data_processed/projections/HTLTPeatland_EM01_GBM012_WC5min_EM01_GBM013_WC5min.tif`; see the `jobid` entries in the relevant config files for the corresponding model settings). These files are archived for reproducibility and convenience, and can also be regenerated from the provided code and required external inputs.
+## Citation
+
+If you use this repository, please cite:
+
+Chen, L., Valdes, P., & Farnsworth, A. (2026). *PeatClim: A climate-driven machine-learning model for predicting potential paleo-peatland distribution and its key climate controls* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.20030628
 
 ## Repository structure
 
