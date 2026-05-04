@@ -1,0 +1,7 @@
+jobid,climate_id,age,myRespName,env_variables,jobid_ensemble,algo,nb_cpu
+EM01_GBM012_WC5min,WorldClim_5min,Modern,LTPeatland,"c(6,7,10,14,18)",GBM012,all,5
+EM01_GBM013_WC5min,WorldClim_5min,Modern,HTPeatland,"c(7,8,11,12,17)",GBM013,all,5
+EM01_GBM012_WCN48,WorldClim_N48,Modern,LTPeatland,"c(6,7,10,14,18)",GBM012,all,5
+EM01_GBM013_WCN48,WorldClim_N48,Modern,HTPeatland,"c(7,8,11,12,17)",GBM013,all,5
+EM01_GBM012_PI,PI,PI,LTPeatland,"c(6,7,10,14,18)",GBM012,all,5
+EM01_GBM013_PI,PI,PI,HTPeatland,"c(7,8,11,12,17)",GBM013,all,5

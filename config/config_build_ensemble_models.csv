@@ -1,0 +1,3 @@
+jobid,myRespName,jobid_single,em_by,metric_select,metric_select_thresh,nb_cpu
+EM01_GBM012,LTPeatland,GBM012,all,TSS,0.75,28
+EM01_GBM013,HTPeatland,GBM013,all,TSS,0.75,28

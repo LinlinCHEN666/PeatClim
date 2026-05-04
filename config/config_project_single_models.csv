@@ -1,0 +1,17 @@
+jobid,myRespName,nb.cpu,climate_id,env.variables,jobid_build
+ANN006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),ANN006
+CTA006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),CTA006
+FDA006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),FDA006
+GAM006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),GAM006
+GBM006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),GBM006
+GLM006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),GLM006
+SRE006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),SRE006
+XGBoost006_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),XGBoost006
+GBM008_WC5min,GlobalPeatland,6,WorldClim_5min,c(1:19),GBM008
+GBM009_WC5min,LTPeatland,6,WorldClim_5min,c(1:19),GBM009
+GBM010_WC5min,HTPeatland,10,WorldClim_5min,c(1:19),GBM010
+GBM011_WC5min,GlobalPeatland,6,WorldClim_5min,"c(6,7,10,12,14,18)",GBM011
+GBM012_WC5min,LTPeatland,6,WorldClim_5min,"c(6,7,10,14,18)",GBM012
+GBM013_WC5min,HTPeatland,10,WorldClim_5min,"c(7,8,11,12,17)",GBM013
+GBM014_WC5min,LTPeatland,6,WorldClim_5min,c(1:19),GBM014
+GBM015_WC5min,HTPeatland,10,WorldClim_5min,c(1:19),GBM015
