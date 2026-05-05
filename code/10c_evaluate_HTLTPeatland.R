@@ -50,7 +50,7 @@ thresholds_prob <- c(0.5, 0.6, 0.7, 0.8)
 # ---------------------------- #
 
 dir_occurrence <- here("data_processed", "occurrence")
-dir_proj       <- here(myRespName)
+dir_proj       <- here("data_processed", "projections")
 dir_figures    <- here("outputs")
 
 dir.create(dir_figures, recursive = TRUE, showWarnings = FALSE)
