@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code used to build and evaluate **PeatClim v1.0**, a climate-driven machine-learning model for global peatland distribution designed for climate-model applications, especially in paleoclimate settings.
+This repository contains the code and configuration files used to build and evaluate **PeatClim v1.0**, a climate-driven machine-learning model for global peatland distribution designed for climate-model applications, especially in paleoclimate settings.
 
 The repository also includes a selected derived product: the modern HTLTPeatland projection raster (`data_processed/projections/HTLTPeatland_EM01_GBM012_WC5min_EM01_GBM013_WC5min.tif`; see the relevant `jobid` entries in the config files for the corresponding model settings). This file is archived for reproducibility and convenience, and can also be regenerated from the provided code and required external inputs.
 
@@ -108,22 +108,24 @@ data_external/WorldClim/wc2.1_5m_bio/
 ```
 
 Citation:  
-Fick, S. E. and Hijmans, R. J. (2017). _WorldClim 2: new 1 km spatial resolution climate surfaces for global land areas._ _International Journal of Climatology_, 37(12), 4302–4315.
+Fick, S. E. and Hijmans, R. J. (2017). _WorldClim 2: new 1 km spatial resolution climate surfaces for global land areas_. _International Journal of Climatology_, 37(12), 4302–4315.
 
 ### Preindustrial climate inputs
 
-Target land–sea masks and preindustrial climate inputs from HadCM3BL, placed under:
+Target land–sea masks and preindustrial climate inputs from HadCM3BL should be placed under:
 
 ```
 data_external/HadCM3BL/
 ```
 
-Data could be find from https://www.paleo.bristol.ac.uk/resources/simulations/ and https://www.paleo.bristol.ac.uk/ummodel/data/tdezc/standard_new_html/tdezc.html for exact version.
+Information on the `tdezc` simulation can be found at https://www.paleo.bristol.ac.uk/ummodel/data/tdezc/standard_new_html/tdezc.html. 
 
-Contact Paul Valdes (p.j.valdes@bristol.ac.uk) to request full data.
+General information on the BRIDGE simulation archive is available at: https://www.paleo.bristol.ac.uk/resources/simulations/.
+
+For guidance on navigating the archive and accessing data, see: [Using_BRIDGE_webpages.pdf](https://www.paleo.bristol.ac.uk/ummodel/scripts/papers/Using_BRIDGE_webpages.pdf), especially Section 5, “Accessing this Data”.
 
 Citation: 
-Valdes, P. J. et al. (2017). _The BRIDGE HadCM3 family of climate models: HadCM3@Bristol v1.0, Geosci_. Model Dev., 10, 3715–3743, https://doi.org/10.5194/gmd-10-3715-2017, 2017.
+Valdes, P. J. et al. (2017). _The BRIDGE HadCM3 family of climate models: HadCM3@Bristol v1.0_, _Geosci. Model Dev._, 10, 3715–3743, https://doi.org/10.5194/gmd-10-3715-2017, 2017.
 
 ## Running the workflow
 
