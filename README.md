@@ -4,15 +4,16 @@
 
 This repository contains the code used to build and evaluate **PeatClim v1.0**, a climate-driven machine-learning model for global peatland distribution designed for climate-model applications, especially in paleoclimate settings.
 
+The repository also includes a selected derived product: the modern HTLTPeatland projection raster (`data_processed/projections/HTLTPeatland_EM01_GBM012_WC5min_EM01_GBM013_WC5min.tif`; see the relevant `jobid` entries in the config files for the corresponding model settings). This file is archived for reproducibility and convenience, and can also be regenerated from the provided code and required external inputs.
+
 The workflow:
 1. prepares modern peatland occurrence data from PEATMAP and Peat-DBase,
-2. defines HT and LT peatland groups,
+2. defines high- and low-temperature peatland groups (HTPeatland, LTPeatland),
 3. prepares climate predictor layers,
-4. trains and projects single and ensemble SDMs with `biomod2`,
+4. trains and projects single and ensemble SDMs with R package `biomod2`,
 5. integrates HT and LT predictions into a unified **HTLTPeatland** probability,
 6. evaluates model performance and propagated uncertainty.
 
-The repository includes selected derived products, including the peatland training dataset (`data_processed/occurrence/PEATMAP_Peat-DBase_HTLT_5min_annotated.csv`) and the modern HTLTPeatland projection raster (`data_processed/projections/HTLTPeatland_EM01_GBM012_WC5min_EM01_GBM013_WC5min.tif`; see the `jobid` entries in the relevant config files for the corresponding model settings). These files are archived for reproducibility and convenience, and can also be regenerated from the provided code and required external inputs.
 ## Citation
 
 If you use this repository, please cite:
@@ -44,11 +45,13 @@ PeatClim_v1.0/
 
 ### Predictor preparation
 
+PeatClim v1.0 uses bioclimatic variables from WorldClim v2.1 at 5 arc-min resolution as training predictors and as an example projection scenario. Other climate datasets, including WorldClim v2.1 aggregated to N48 resolution and simulated preindustrial (PI) climate data from the HadCM3BL model, are used only for projection tests.
+
 - `02a_upscale_WorldClim_to_N48.R`
 - `02b_prepare_PI_19_biovars.R`
 - `03_calculate_bioclim_correlations.R`
 
-### Model building and projection
+### Model building, evaluation and projection
 
 - `04_build_single_models.R`
 - `05_project_single_models.R`
