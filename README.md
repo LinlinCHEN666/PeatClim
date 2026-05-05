@@ -18,7 +18,7 @@ The workflow:
 
 If you use this repository, please cite:
 
-Chen, L., Valdes, P., & Farnsworth, A. (2026). *PeatClim: A climate-driven machine-learning model for predicting potential paleo-peatland distribution and its key climate controls* (v1.0). Zenodo. https://doi.org/10.5281/zenodo.20030628
+Chen, L., Valdes, P., & Farnsworth, A. (2026). PeatClim: A climate-driven machine-learning model for predicting potential paleo-peatland distribution and its key climate controls (v1.0). Zenodo. https://doi.org/10.5281/zenodo.20039650
 
 ## Repository structure
 
