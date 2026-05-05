@@ -14,6 +14,10 @@ The workflow:
 5. integrates HT and LT predictions into a unified **HTLTPeatland** probability,
 6. evaluates model performance and propagated uncertainty.
 
+## Citation
+
+Please cite the archived Zenodo release corresponding to the version of PeatClim used.
+
 ## Repository structure
 
 ```text
